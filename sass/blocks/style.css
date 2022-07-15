@@ -1,0 +1,251 @@
+.promo {
+  min-height: 650px;
+  width: 100vw;
+  padding: 21px 0 93px 0;
+  background-image: url(/img/bg/main_bg.jpg);
+  background-color: pink;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promo .container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+.promo .container .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+.promo .container .header__logo {
+  width: 251px;
+  height: 45px;
+}
+.promo .container .header__official {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+}
+.promo .container .header__official span {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+.promo .container .header__contacts a {
+  display: block;
+  color: white;
+}
+.promo .container .header__contacts button {
+  width: 150px;
+  height: 30px;
+  margin-top: 8px;
+  background-color: #c70101;
+  color: white;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.promo .container .main_to_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.promo .container .main_to_right .main_promo {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.promo .container .main_to_right .main_promo .level_puls {
+  margin-top: 75px;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: end;
+}
+.promo .container .main_to_right .main_promo .level_puls h1 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.promo .container .main_to_right .main_promo .promo_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 67px 0;
+}
+.promo .container .main_to_right .main_promo .promo_icons .promo_icons_1 {
+  height: 100px;
+  width: 100px;
+  margin: 0 23px;
+}
+.promo .container .main_to_right .main_promo .promo_icons .promo_icons_1 img {
+  display: block;
+  margin: 0 auto;
+}
+.promo .container .main_to_right .main_promo .promo_icons .promo_icons_1_descr {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+}
+.promo .container .main_to_right .main_promo .cunsult {
+  display: flex;
+  flex-direction: column;
+}
+.promo .container .main_to_right .main_promo .cunsult .button_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.promo .container .main_to_right .main_promo .cunsult .button_div button {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 16px;
+  background-color: #c70101;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.promo .container .main_to_right .main_promo .cunsult .link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.promo .container .main_to_right .main_promo .cunsult .link a {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-left: 5px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+.benefits {
+  min-height: 474px;
+  width: 100vw;
+  background-color: #fff;
+  background-color: #f6f6f6;
+}
+.benefits .container {
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.benefits .container .benefis__text {
+  margin: 67px 0;
+  font-size: 30px;
+  font-weight: 500;
+  color: #0d0d0d;
+}
+.benefits .container .benefits_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.benefits .container .benefits_icons_1 {
+  max-width: 242px;
+}
+.benefits .container .benefits_icons_1_title {
+  margin-top: 35px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0d0d0d;
+}
+.benefits .container .benefits_icons_1_descr {
+  margin-top: 25px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #0d0d0d;
+}
+.benefits .container .benefits_icons_1_descr a {
+  color: #ff0000;
+}
+
+@media (max-width: 1111px) {
+  .promo .container .main_to_right .main_promo {
+    padding-right: 62px;
+  }
+  .promo .container .main_to_right .main_promo .promo_icons {
+    margin: 40px 0;
+  }
+  .promo .benefits_icons_1 {
+    width: 187px;
+    margin: 0 45px;
+  }
+  .promo .benefits_icons {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 826px) {
+  .promo .container .header {
+    justify-content: space-around;
+  }
+  .benefits .container .benefits_icons_1 {
+    max-width: 188px;
+  }
+}
+@media (max-width: 681px) {
+  .benefits .container .benefis__text {
+    margin-bottom: 40px;
+  }
+  .benefits .container .benefits_icons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits .container .benefits_icons_1 {
+    margin-top: 15px;
+  }
+  .promo .container .header__official {
+    display: none;
+  }
+  .promo .container .main_to_right .main_promo .level_puls {
+    font-size: 17px;
+  }
+  .promo .container .main_to_right .main_promo .level_puls h1 {
+    font-size: 33px;
+  }
+  .promo .container .main_to_right .main_promo .promo_icons .promo_icons_1 {
+    margin: 0px 13px;
+  }
+}
+@media (max-width: 478px) {
+  .promo .container .header a img {
+    width: 180px;
+  }
+  .promo .container .header .header__contacts button {
+    display: none;
+  }
+  .promo .container .main_to_right .main_promo {
+    padding-right: 30px;
+  }
+  .promo .container .main_to_right .main_promo .promo_icons .promo_icons_1 {
+    margin: 0px 6px;
+  }
+}/*# sourceMappingURL=style.css.map */
