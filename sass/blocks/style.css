@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .promo {
   min-height: 650px;
   width: 100vw;
@@ -282,6 +283,7 @@
   background-color: #c70101;
   color: #ffffff;
   border: none;
+  transition: 0.35s;
 }
 .catalog_switcher .container .catalog .catalog_tabs .label {
   display: flex;
@@ -290,7 +292,7 @@
   height: 50px;
   border: 2px solid #d0d0d0;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   color: #6b6b6b;
   cursor: pointer;
@@ -312,6 +314,7 @@
   flex-direction: column;
   justify-content: space-around;
   margin-bottom: 15px;
+  padding: 20px;
 }
 .catalog_switcher .container .catalog .catalog_goods .good .good_info {
   display: flex;
@@ -342,11 +345,35 @@
 }
 .catalog_switcher .container .catalog .catalog_goods .good .good_info .good_more {
   margin-bottom: 13px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   text-decoration: underline;
   color: #c70101;
   cursor: pointer;
+  text-transform: uppercase;
+}
+.catalog_switcher .container .catalog .catalog_goods .good .good_info .detailed_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 230px;
+  width: 240px;
+  margin-bottom: 50px;
+}
+.catalog_switcher .container .catalog .catalog_goods .good .good_info .detailed_info .detailed_info_str {
+  display: block;
+  padding-left: 3px;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #555555;
+  position: relative;
+}
+.catalog_switcher .container .catalog .catalog_goods .good .good_info .detailed_info .detailed_info_str::before {
+  content: "•";
+  margin-right: 10px;
+  position: absolute;
+  left: -14px;
 }
 .catalog_switcher .container .catalog .catalog_goods .good hr {
   width: 260px;
@@ -532,10 +559,8 @@
   flex-direction: row;
   justify-content: space-around;
 }
-.map .container .adress_links .links img {
-  height: 50px;
-  border: 2px solid #ffffff;
-  border-radius: 100%/50%;
-  display: block;
-  margin: 0 20px;
+.map .container .adress_links .links a i {
+  color: #ffffff;
+  font-size: 40px;
+  margin-right: 20px;
 }/*# sourceMappingURL=style.css.map */

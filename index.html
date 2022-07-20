@@ -53,7 +53,7 @@
                         <div class="button_div">
                             <button>заказать консультацию</button>
                         </div>
-                        <div class="link">или<a href="#">ПЕРЕЙТИ В КАТАЛОГ</a></div>
+                        <div class="link">или<a href="#catalog_title">ПЕРЕЙТИ В КАТАЛОГ</a></div>
                     </div>
                 </div>
             </div>
@@ -113,21 +113,41 @@
                     <img src="./icons/carousel/chevron_left_solid_980.png" alt="img">
                 </div>
                 <div class="product_img">
-                    <img src="./img/carousel_img/watch_1.jpg" alt="img">
+                    <img class="img_prod_img" src="./img/carousel_img/watch_1.jpg" alt="img">
                 </div>
                 <div class="next_img">
                     <img src="./icons/carousel/chevron_right_solid_982.png" alt="img">
                 </div>
             </div>
-
             <div class="catalog">
-                <div class="catalog_title">Каталог пульсометров</div>
+                <div class="catalog_title" id="catalog_title">Каталог пульсометров</div>
                 <div class="catalog_tabs">
                     <input type="radio" checked name="nnn" id="n1"><label class="label" for="n1">для фитнеса</label>
                     <input type="radio" name="nnn" id="n2"><label class="label" for="n2">для бега</label>
                     <input type="radio" name="nnn" id="n3"><label class="label" for="n3">для триатлона</label>
                 </div>
                 <div class="catalog_goods">
+
+                    <div class="good">
+                        <div class="good_info">
+                            <div class="detailed_info">
+                                <div class="detailed_info_str">Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</div>
+                                <div class="detailed_info_str">Вы увидете информативный графический индикатор целевых тренировочных зон пульса;</div>
+                                <div class="detailed_info_str">Также Вы увидете информацию о расходе калорий за тренировку;</div>
+                                <div class="detailed_info_str">Вы сможете посмотреть данные по 10 тренировкам.</div>
+                            </div>
+                            <div class="good_more">назад</div>
+                        </div>
+                        <hr>
+                        <div class="good_price">
+                            <div class="price_and_lastprice">
+                                <div class="lastprice">4750 руб.</div>
+                                <div class="actual_price">4500 руб.</div>
+                            </div>
+                            <button class="bye">купить</button>
+                        </div>
+                    </div>
+
                     <div class="good">
                         <div class="good_info">
                             <img src="./img/catalog/watch_catalog.jpg" alt="img">
@@ -279,13 +299,21 @@
                     <a href="+74999228974">8 (499) 922-89-74</a>
                 </div>
                 <div class="links">
-                    <img src="./icons/facebook.png" alt="img">
-                    <img src="./icons/facebook.png" alt="img">
-                    <img src="./icons/facebook.png" alt="img">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+    <script defer src="https://kit.fontawesome.com/03ed03337a.js" crossorigin="anonymous"></script>
+    <script defer src="./js/script.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
